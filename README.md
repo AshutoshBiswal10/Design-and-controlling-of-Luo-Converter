@@ -105,25 +105,30 @@ The repository includes simulation results for:
 
 ```text
 .
-├── Luo_Converter_Control.slx        # Complete MATLAB/Simulink model
-├── Results/
-│   ├── Circuit Diagram.png
-│   ├── Converter Parameters.png
-│   ├── Step Response_PID.png
-│   ├── Step Response_2DOF.png
-│   ├── Step Response_3DOF.png
-│   ├── Bode_PID.png
-│   ├── Bode_2DOF.png
-│   ├── Bode_3DOF.png
-│   ├── RootLocus_PID.png
-│   ├── RootLocus_2DOF.png
-│   ├── RootLocus_3DOF.png
-│   ├── Output Voltage.png
-│   ├── Output Current.png
-│   └── Controller Comparison.png
-├── Paper.pdf
+├── Hardware/                              # Hardware implementation files and related resources
+├── MATLAB Simulation/                     # MATLAB/Simulink models, controller design, and simulations
+├── PCB Designing using KiCad/             # PCB schematics and board layout files
+├── References/                            # Research papers, datasheets, and supporting literature
+├── Results/                               # Simulation plots, controller comparisons, and output waveforms
+├── Hardware_Luo_Converter_with_IGBT.slx   # Complete Simulink model of the Luo Converter with closed-loop control
 └── README.md
 ```
+
+### Repository Contents
+
+- **Hardware/** – Hardware implementation resources, component details, and supporting files for the Luo Converter prototype.
+
+- **MATLAB Simulation/** – MATLAB scripts and Simulink models used for small-signal modeling, controller design, transfer function analysis, and simulation.
+
+- **PCB Designing using KiCad/** – KiCad project files including schematic diagrams, PCB layouts, and fabrication-ready design files.
+
+- **References/** – Research papers, datasheets, and reference materials used during the design and analysis of the converter.
+
+- **Results/** – Simulation outputs including step responses, Bode plots, root locus diagrams, output voltage/current waveforms, and controller performance comparisons.
+
+- **Hardware_Luo_Converter_with_IGBT.slx** – Complete MATLAB/Simulink model integrating the Positive Output Luo Converter, IGBT-based switching circuit, and the implemented PID, 2-DOF PID, and 3-DOF PID control strategies.
+
+- **README.md** – Project overview, methodology, simulation details, repository structure, and usage instructions.
 
 ---
 
