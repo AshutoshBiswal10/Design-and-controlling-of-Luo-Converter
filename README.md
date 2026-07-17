@@ -1,9 +1,3 @@
-# Design-and-controlling-of-Luo-Converter
-This project involves the design, simulation, and hardware implementation of a high-efficiency DC-DC Luo Converter.
-It includes controller analysis using PID, 2-DOF, and 3-DOF strategies, with simulations in MATLAB and Mathematica, and hardware prototyping via KiCad and PCB etching.
-Achieved up to 96.15% simulation and 93.08% hardware efficiency.
-
-
 # Comparative Analysis of Control Strategies for Enhancing the Performance of a DC-DC Luo Converter
 
 This repository presents the mathematical modeling, small-signal analysis, controller design, and simulation of a **Positive Output Luo Converter (POLC)** under closed-loop voltage regulation using MATLAB/Simulink.
